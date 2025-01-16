@@ -32,7 +32,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 MY_APPS = [
-    'task'
+    'task',
+    'project'
 ]
 
 INSTALLED_APPS = [
@@ -43,8 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'task',
-]
+] + MY_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -83,11 +83,11 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'demo',
-        'USER': 'user',
-        'PASSWORD': 'password',
-        'HOST': 'db',
-        'PORT': '5432',
+        'NAME': 'tasks',
+        'USER': 'paolo',
+        'PASSWORD': 'supersecret',
+        'HOST': 'localhost',
+        'PORT': '3005',
     }
 }
 
