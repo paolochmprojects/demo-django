@@ -1,7 +1,5 @@
 # Task App
 
-// ...existing code...
-
 ## Instructions to run migrations and run the application locally
 
 1. Open a terminal and navigate to the project directory.
@@ -15,8 +13,6 @@
    ```
 4. Open your web browser and navigate to `http://127.0.0.1:8000/` to see the application running.
 
-// ...existing code...
-
 ## Instructions to build and run the Docker container
 
 1. Open a terminal and navigate to the project directory.
@@ -29,8 +25,6 @@
    docker run -p 8000:8000 task-app
    ```
 4. Open your web browser and navigate to `http://127.0.0.1:8000/` to see the application running.
-
-// ...existing code...
 
 ## Instructions to use Docker Compose
 
